@@ -1,0 +1,68 @@
+Types of data
+ structured, semi-structured, or unstructured.
+
+Structured data is data that adheres to a fixed schema, so all of the data has the same fields or properties.stly in a tabulated format. 
+Semi-structured data is information that has some structure, but which allows for some variation between entity instances. One common format for semi-structured data is JavaScript Object Notation (JSON). 
+
+Example of a JSON Format below
+// Customer 1
+{
+  "firstName": "Joe",
+  "lastName": "Jones",
+  "address":
+  {
+    "streetAddress": "1 Main St.",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10099"
+  },
+  "contact":
+  [
+    {
+      "type": "home",
+      "number": "555 123-1234"
+    },
+    {
+      "type": "email",
+      "address": "joe@litware.com"
+    }
+  ]
+}
+
+// Customer 2
+{
+  "firstName": "Samir",
+  "lastName": "Nadoy",
+  "address":
+  {
+    "streetAddress": "123 Elm Pl.",
+    "unit": "500",
+    "city": "Seattle",
+    "state": "WA",
+    "postalCode": "98999"
+  },
+  "contact":
+  [
+    {
+      "type": "email",
+      "address": "samir@northwind.com"
+    }
+  ]
+}
+
+Unstructured data
+Not all data is structured or even semi-structured. For example, documents, images, audio and video data, and binary files might not have a specific structure. This kind of data is referred to as unstructured data.
+
+
+Categories of data store
+filestores and databases. 
+
+Relational databases
+Relational databases are commonly used to store and query structured data. 
+The data is stored in tables that represent entities, such as customers, products, or sales orders.
+ Each instance of an entity is assigned a primary key that uniquely identifies it; and these keys are used to reference the entity instance in other tables.
+
+
+Non-relational databases
+Non-relational databases are data management systems that don’t apply a relational schema to the data. 
+Non-relational databases are often referred to as NoSQL database, even though some support a variant of the SQL language.
