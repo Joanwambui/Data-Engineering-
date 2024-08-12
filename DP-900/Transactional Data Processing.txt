@@ -1,0 +1,15 @@
+Transactional Data Processing
+
+- **Transactional Data Processing**: Involves recording specific events (transactions) that an organization needs to track. These could be financial or retail transactions, among others.
+
+- **High-Volume Processing**: Transactional systems handle large volumes of transactions daily, requiring fast data access.
+
+- **OLTP (Online Transactional Processing)**: Refers to systems optimized for both read and write operations, supporting transactional workloads where data records are created, retrieved, updated, and deleted (CRUD operations).
+
+- **ACID Properties**: Ensure the integrity of data in OLTP systems:
+  - **Atomicity**: Transactions are all-or-nothing.
+  - **Consistency**: Transactions take the database from one valid state to another.
+  - **Isolation**: Concurrent transactions don't interfere with each other.
+  - **Durability**: Once a transaction is committed, it remains so, even after system failures.
+
+- **Usage**: OLTP systems support live applications, often referred to as line-of-business (LOB) applications.
