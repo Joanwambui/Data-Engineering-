@@ -1,0 +1,44 @@
+SQL statements are grouped into three main logical groups:
+
+Data Definition Language (DDL)
+Data Control Language (DCL)
+Data Manipulation Language (DML)
+
+You use DDL statements to create, modify, and remove tables and other objects in a database (table, stored procedures, views, and so on).
+
+The most common DDL statements are:
+
+Statement	Description
+CREATE	Create a new object in the database, such as a table or a view.
+ALTER	Modify the structure of an object. For instance, altering a table to add a new column.
+DROP	Remove an object from the database.
+RENAME	Rename an existing object.
+
+
+DCL statements
+Database administrators generally use DCL statements to manage access to objects in a database by granting, denying, or revoking permissions to specific users or groups.
+
+The three main DCL statements are:
+
+Statement	Description
+GRANT	Grant permission to perform specific actions
+DENY	Deny permission to perform specific actions
+REVOKE	Remove a previously granted permission
+
+For example
+GRANT SELECT, INSERT, UPDATE
+ON Product
+TO user1;
+
+
+
+DML statements
+You use DML statements to manipulate the rows in tables. These statements enable you to retrieve (query) data, insert new rows, or modify existing rows. You can also delete rows if you don't need them anymore.
+
+The four main DML statements are:
+
+Statement	Description
+SELECT	Read rows from a table
+INSERT	Insert new rows into a table
+UPDATE	Modify data in existing rows
+DELETE	Delete existing rows
