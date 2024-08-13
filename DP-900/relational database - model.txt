@@ -1,0 +1,5 @@
+In a relational database - model collections from real world as tables.
+
+Normalization is a term used by database professionals for a schema design process that minimizes data duplication and enforces data integrity.
+
+, a relational database management system (RDBMS) can enforce referential integrity to ensure that a value entered into a foreign key field has an existing corresponding primary key in the related table
