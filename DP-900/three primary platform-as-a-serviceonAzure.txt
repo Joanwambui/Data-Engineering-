@@ -1,0 +1,18 @@
+three primary platform-as-a-service (PaaS) solutions on Azure 
+
+
+Azure Synapse Analytics: An integrated analytics service that combines SQL-based data warehousing with the flexibility of a data lake and Apache Spark. It includes data pipelines, log and telemetry analytics, and can be managed through Azure Synapse Studio.
+
+Azure Databricks: A data analytics solution built on Apache Spark with native SQL capabilities and workload-optimized clusters. It is suitable for users with existing Databricks expertise or those needing a multi-cloud or cloud-portable solution.
+
+Azure HDInsight: A service supporting various open-source data analytics clusters, like Hadoop. It is less user-friendly but useful for open-source frameworks or migrating from on-premises Hadoop solutions.
+
+
+On Azure, large-scale data ingestion is best implemented by creating pipelines that orchestrate ETL processes. You can create and run pipelines using Azure Data Factory, or you can use a similar pipeline engine in Azure Synapse Analytics or Microsoft Fabric if you want to manage all of the components of your data analytics solution in a unified workspace
+
+Pipelines can connect to external data sources to integrate with a wide variety of data services.
+
+A data warehouse is a relational database in which the data is stored in a schema that is optimized for data analytics rather than transactional workloads. Commonly, the data from a transactional store is transformed into a schema in which numeric values are stored in central fact tables, which are related to one or more dimension tables that represent entities by which the data can be aggregated.
+
+A data lake is a file store, usually on a distributed file system for high performance data access. Technologies like Spark or Hadoop are often used to process queries on the stored files and return data for reporting and analytics. These systems often apply a schema-on-read approach to define tabular schemas on semi-structured data files at the point where the data is read for analysis, without applying constraints when it's stored. Data lakes are great for supporting a mix of structured, semi-structured, and even unstructured data that you want to analyze without the need for schema enforcement when the data is written to the store.
+
